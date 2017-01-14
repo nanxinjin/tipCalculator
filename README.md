@@ -35,6 +35,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 When I tried to link tip bar to the calculateTip function, it was not working. I tried to implement the project again, and it still not working. So I searched some information online, and I changed _sender:Any to _sender:AnyObject, and it works well. Also, my keyborad was always hidden at the beginning, and I really don't know why because I followed the instruction step by step. However, I changed simulator->Hardware->keyboard, and diselect connect hardware keyboard, this issue was solved.
 
+I got this homework 2 days before, and I received an email said it will due on 15th. So I just did the basic version, I will try some extra features later.
+
 ## License
 
     Copyright [2017] [Nanxin Jin]
