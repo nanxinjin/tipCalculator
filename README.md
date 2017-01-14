@@ -1,16 +1,16 @@
-# Pre-work - *Name of App Here*
+# Pre-work - *tipCalculator*
 
-**Name of your app** is a tip calculator application for iOS.
+**tipCalculator** is a tip calculator application for iOS.
 
-Submitted by: **Your Name Here**
+Submitted by: **Nanxin Jin**
 
-Time spent: **X** hours spent in total
+Time spent: **2.5** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is complete:
 
-* [ ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [V] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
 * [ ] Settings page to change the default tip percentage.
@@ -33,11 +33,11 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+When I tried to link tip bar to the calculateTip function, it was not working. I tried to implement the project again, and it still not working. So I searched some information online, and I changed _sender:Any to _sender:AnyObject, and it works well. Also, my keyborad was always hidden at the beginning, and I really don't know why because I followed the instruction step by step. However, I changed simulator->Hardware->keyboard, and diselect connect hardware keyboard, this issue was solved.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2017] [Nanxin Jin]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
